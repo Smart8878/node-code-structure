@@ -2,6 +2,7 @@ const CommentService = require('../services/comment.service');
 
 class CommentController {
 
+
   async getComment(req, res) {
     try {
       const data = await CommentService.getComment(req.params);
