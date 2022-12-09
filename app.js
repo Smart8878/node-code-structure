@@ -6,6 +6,7 @@ const port = process.env.PORT || 3000;
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
+console.log("helloo test")
 
 // routes
 const Router = require('./routes');
